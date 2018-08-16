@@ -1,0 +1,78 @@
+/*Additional Styles:*/
+.clearfix:after {
+	display: block;
+	content: "";
+	clear: both;
+}
+
+/*Main Styles:*/
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+.wrapper{
+	width: 1060px;
+	margin: 0 auto;
+	
+}
+.logo{
+	margin: 60px 0 50px;
+	display: block;
+}
+.menu{
+	background-color: #535252; 
+	overflow: hidden;
+	margin-bottom: 60px;
+
+}
+.menu li{
+	float: left;
+	padding: 20px 40px;
+	 
+}
+.menu li a{
+	font-family: 'Open Sans', sans-serif;
+	color:#fff;
+	text-decoration: none;
+}
+.nav_menu{
+	float: left;
+	width: 25%;
+}
+.nav_menu li{
+	padding: 20px 0 20px 40px;
+	border: 1px solid #c8c8c8;
+	
+}
+.nav_menu a{
+	text-decoration: none;
+	color: #c2c2c2;
+	font-family: 'Open Sans', sans-serif;
+}
+.content{
+	float: right;
+	width: 65%;
+	margin: 44px;
+}
+.img_box{
+	text-align: center;
+	border: 1px solid #c8c8c8;
+}
+.text{
+	padding: 42px;
+}
+.footer_menu {
+	background-color: #D3D3D3; 
+	overflow: hidden;
+	margin-bottom: 60px;	
+}
+.footer_menu li{
+	float: left;
+	padding: 20px 40px;
+}
+.footer_menu li:last-child {
+	float: right;
+}
+.footer_menu li a{
+	color:#000000;
+	text-decoration: none;
+}
